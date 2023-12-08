@@ -1,0 +1,19 @@
+:root{
+    --cor-fundo-claro: #fff;
+    --cor-texto-claro: #333;
+    --cor-fundo-escuro: #333;
+    --cor-texto-escuro: #fff;
+
+
+}
+
+body{
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-texto-claro);
+}
+
+body.tema-escuro {
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto-escuro);
+}
+
